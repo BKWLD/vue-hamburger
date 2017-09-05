@@ -7,18 +7,28 @@ A hamburger icon that transitions to a close icon.
 ## Usage
 
 ```javascript
+// Add component
 import 'vue-hamburger/index.css'
 VueHamburger = import 'vue-hamburger'
 Vue.component('hamburger', VueHamburger)
+
+// Example Vue component using the hamburger
+Vue.component('mobile-nav', {
+  data: function() {
+    return {
+      open: false // The open/close state of the mobile nav
+    }
+  }
+})
 ```
 
 ```html
-<header>
+<mobile-nav>
 	<hamburger
 		:stroke='2'
 		:gap='5'
 		color='#192a35'
 		:open.sync='open'>
 	</hamburger>
-</header>
+</mobile-nav>
 ```
