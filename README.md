@@ -9,7 +9,7 @@ A hamburger icon that transitions to a close icon.
 ```javascript
 // Add component
 import 'vue-hamburger/index.css'
-VueHamburger = import 'vue-hamburger'
+VueHamburger = require 'vue-hamburger'
 Vue.component('hamburger', VueHamburger)
 
 // Example Vue component using the hamburger
