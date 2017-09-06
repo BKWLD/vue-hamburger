@@ -294,6 +294,11 @@ module.exports = {
       }
     }
   },
+  watch: {
+    open: function(val) {
+      return this.state.open = val;
+    }
+  },
   methods: {
     lineStyle: function(index) {
       return {
