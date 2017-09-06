@@ -64,6 +64,9 @@ module.exports =
 		# Calculate how much to shift the lines when open
 		top: -> if @state.open then @gap + @stroke else 0
 
+	# Update the internal state when the prop value changes
+	watch: open: (val) -> @state.open = val
+
 	methods:
 
 		# Make the line styles
