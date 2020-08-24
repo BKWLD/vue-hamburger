@@ -1,6 +1,6 @@
 {
   "name": "vue-hamburger",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A hamburger icon that transitions to a close icon",
   "main": "index.js",
   "repository": "git@github.com:BKWLD/vue-hamburger.git",
