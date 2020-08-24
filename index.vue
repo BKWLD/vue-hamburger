@@ -4,7 +4,7 @@ A hamburger icon that animates into an close x when open
 
 <template lang='pug'>
 
-.hamburger-button(
+.vue-hamburger(
 	:style='buttonStyle'
 	:class='buttonClasses'
 	@click='onClick')
@@ -92,7 +92,7 @@ module.exports =
 // Add Bukwild functions
 @import '~bukwild-stylus-library/index.styl'
 
-.hamburger-button
+.vue-hamburger
 	button()
 	position relative
 
